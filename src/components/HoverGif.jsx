@@ -12,10 +12,10 @@ const HoverGif = ({children , gifSrc}) => {
         >
             {children}
             {isHover && (
-                <img
+                <img  
+                className='hidden lg:block md:block absolute left-0 md:-top-[4.5rem] lg:-top-[6.5rem] mt-2 w-auto h-auto'
                 src={gifSrc}
                 alt='HoverGif'
-                className='absolute left-0 top-full mt-2 w-22 h-auto'
                 />
             )}
         </span>

@@ -23,7 +23,7 @@ const Hero = () => {
       <div className='container relative' ref={parallaxRef}>
         <div className='relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-[5rem] lg:mb-[6rem]'>
           <h1 className='h1 mb-6'>
-            The next generation&nbsp;<HoverGif gifSrc={sunglasses}>glasses</HoverGif>for&nbsp;<span className='inline-block relative'>visually <img src={curve} className='absolute top-full left-0 w-full ' 
+            The next generation&nbsp;<HoverGif gifSrc={sunglasses}>glasses</HoverGif>&nbsp;for&nbsp;<span className='inline-block relative'>visually <img src={curve} className='absolute top-full left-0 w-full ' 
             width={624}
             height={28}
             alt='Curve'
