@@ -71,7 +71,7 @@ export default {
         DEFAULT: "0.0625rem",
       },
       backgroundImage: {
-        "text-gradient":"linear-gradient(90deg , #62E862 , #46FFFF)",
+        "text-gradient":"linear-gradient(90deg, #46FFFF , #62E862)",
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
           "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
