@@ -29,7 +29,7 @@ your-project/
    ```
 2. Navigate to the project folder:
    ```bash
-   cd brainwave
+   cd seeBysound
    ```
 3. Install dependencies:
    ```bash
