@@ -1,6 +1,6 @@
-# Brainwave App
+# seeBysound
 
-Brainwave is a responsive web application built with **React** and **Tailwind CSS**. It features a dynamic navigation bar with a Hamburger menu, user authentication links, and smooth page transitions. The project uses modular components for easy maintenance and scalability.
+seeBysound is a responsive web application built with **React** and **Tailwind CSS**. It features a dynamic navigation bar with a Hamburger menu, user authentication links, and smooth page transitions. The project uses modular components for easy maintenance and scalability.
 
 ## Features
 - Responsive header with navigation and hamburger menu.

@@ -1,4 +1,4 @@
-import brainwave from "./brainwave.svg";
+import brainwave from "./seebysoundfinal.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -23,7 +23,8 @@ import background from "./background.jpg";
 
 import curve from "./hero/curve2.png";
 import robot from "./hero/robot.jpg";
-import heroBackground from "./hero/hero-background.jpg";
+import robot2 from "./hero/robot.jpeg";
+import heroBackground from "./hero/hero-background.png";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -103,6 +104,7 @@ export {
   background,
   curve,
   robot,
+  robot2,
   heroBackground,
   curve1,
   curve2,
