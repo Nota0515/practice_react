@@ -1,12 +1,13 @@
 import React, { useRef } from 'react'
 import Section from './Section';
 import Button from "../components/Button"
-import { curve, heroBackground, robot , robot2 } from "../assets"; 
+import { curve, heroBackground, robot } from "../assets"; 
 import {BackgroundCircles , BottomLine , Gradient } from './design/Hero';
 import { heroIcons } from "../constants";
 import { ScrollParallax } from 'react-just-parallax';
 import HoverGif from '../components/HoverGif';
 import { sunglasses } from '../assets';
+import Notification from './Notification';
 
 
 const Hero = () => {
@@ -42,8 +43,8 @@ const Hero = () => {
               <div className='h-[1.5rem] bg-n-10 rounded-t-[0.9rem]'/>
                <div className='aspect-[33/40] rounded-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]'>
                   <img 
-                    src={robot2}
-                    className='w-full scale-[1.7] -translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]'
+                    src={robot}
+                    className='w-full scale-[1.7] -translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[4%]'
                     width={1024}
                     height={490}
                     alt='heroImage'
@@ -56,6 +57,12 @@ const Hero = () => {
                         </li>
                       ))}
                     </ul>
+                  </ScrollParallax>
+                  <ScrollParallax isAbsolutelyPositioned>
+                    <Notification   
+                      className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
+                      title="producing stunning glasses"
+                    />
                   </ScrollParallax>
                </div>
             </div>
