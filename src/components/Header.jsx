@@ -29,7 +29,7 @@ const Header = () => {
     };
 
   return (
-    <div className={` fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:backdrop-blur-sm lg:bg-n-8/80 ${openNavigation ? 'bg-n-8' : 'bg-n-8/90 backdrop-blur-sm'}`}>
+    <div className={` fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:backdrop-blur-sm lg:bg-n-15/70 ${openNavigation ? 'bg-n-15' : 'bg-n-15/90 backdrop-blur-sm'}`}>
         <div className='flex items-center px-5 mt-5 lg:px-7.5 xl:px-10 max-lg:py-4'>
             <a className='block w-[12rem] xl:mr-8' href='#home'>
                 <img src={brainwave} width={190} height={40} alt='Brainwavelogo' />
