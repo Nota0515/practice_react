@@ -12,7 +12,7 @@ const Roadmap = () => (
     <div className="container md:pb-10">
       <Heading tag="Ready to get started" title="What we’re working on" />
 
-      <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
+      <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem] mt-20">
         {roadmap.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
 
@@ -23,7 +23,7 @@ const Roadmap = () => (
               }`}
               key={item.id}
             >
-              <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
+              <div className="relative p-8 bg-n-15 rounded-[2.4375rem] overflow-hidden xl:p-15">
                 <div className="absolute top-0 left-0 max-w-full">
                   <img
                     className="w-full"
