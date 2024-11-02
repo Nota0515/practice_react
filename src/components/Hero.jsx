@@ -33,7 +33,7 @@ const Hero = () => {
           <p className='body-1 scale-[80%] max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8'>
           "Experience the World Through Sound. Enhance independence with SeeBySound, the revolutionary audio-visual guide for the visually impaired."
           </p>
-          <Button href="#pricing" white className="hover:text-n-14">
+          <Button href="#helloworld" white className="hover:text-n-14">
             Try for Free
           </Button>
         </div>
