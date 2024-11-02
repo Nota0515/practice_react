@@ -33,7 +33,7 @@ const Hero = () => {
           <p className='body-1 scale-[80%] max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8'>
           "Experience the World Through Sound. Enhance independence with SeeBySound, the revolutionary audio-visual guide for the visually impaired."
           </p>
-          <Button href="#pricing" white>
+          <Button href="#pricing" white className="hover:text-n-14">
             Try for Free
           </Button>
         </div>
@@ -68,7 +68,7 @@ const Hero = () => {
             </div>
             <Gradient />
           </div>
-         {/* <div className='absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%] ' >
+         <div className='absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2  md:-top-[46%] md:w-[138%] lg:-top-[70%] scale-125 ' >
             <img 
               className='w-full'
               src={heroBackground}
@@ -76,7 +76,7 @@ const Hero = () => {
               height={1800}
               alt='herobg'
             />
-          </div> */}
+          </div>
 
           <BackgroundCircles />
         </div>

@@ -25,7 +25,7 @@ your-project/
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/brainwave.git
+   git clone https://github.com/your-username/seeBysound.git
    ```
 2. Navigate to the project folder:
    ```bash
